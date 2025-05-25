@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgueria</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Burgueir Mágico</h1>
+    </header>
+
+<section class="hero">
+    <div class="box-txt">
+      
+        <h2>Cadastro de Insumos</h2>
+
+        <form class="formulario" action="cadastro.php" method="post">
+            
+            <p>Produto: <input type="text" name="produto" placeholder="Digite o nome do produto" required> </p>
+            <p>Quantidade: <input type="number" name="quantidade" placeholder="Digite a quantidade" required> </p>
+            <p>Custo Unitário: <input type="number" name="custo" placeholder="Digite o custo unitário" required> </p>
+            <p>Margem: <input type="number" name="margem" placeholder="Digite o percentual" required> </p>
+            <p>  <input type="submit" value="Enviar" class="btn-hero"> </p>
+
+        </form>
+        <p></p>
+        <a href="geral.php" class="btn-voltar">Voltar </a>   
+       
+    </div>
+
+</section>
+
+<footer>
+
+<p>2025 © Hamburgueria Temárica Burgueir Mágico. Todos os direitos reservados.</p>
+
+</footer>
+
+</body>
+</html>
